@@ -1,0 +1,68 @@
+<!Doctype Html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style2.css" rel="stylesheet">
+
+<title>CONTACTO</title>
+</head>
+
+<body>
+
+
+<header class="header">
+    <div id="logo">   
+<a href="#" class="logo"><img src="logo.jpeg"width="50" height="30"></a></div>   
+
+<nav id="navegador">
+    <ul>
+     
+        <li><a href="contacto.html#CONTACTO">CONTACTO</a></li>
+     
+    </ul>  
+</nav>
+</header>
+
+<main class="Container">
+    <div class="texto">
+    <h1>Calcule la talla de su kimono de BJJ</h1>
+    </div>
+    <div id="Formulario">
+
+    <form action="" method="GET">
+      
+      <label for="ALTURA" id="ALTURA_LABEL">ALTURA:</label>
+      <input type="text"  name ="ALTURA" id="ALTURA" placeholder="Ingrese su altura en Cms">
+     
+      <label for="PESO" id="PESO_LABEL">PESO:</label>
+      <input type="text"  name ="PESO" id="PESO" placeholder="Ingrese su peso en Kg" >
+
+      <label for="TALLA" id ="TALLA_LABEL">TALLA:</label>
+      <input type="text"  name ="TALLA" id="TALLA">
+
+      <input type="button" onclick="calculo_talla()" value="Enviar" id="calc" />
+
+      <input type="reset" value="Borrar datos" id="borrar">
+    </form>
+ 
+    
+         
+    </div>
+</main>
+</br>
+<script type="text/javascript"src="kimono.js"></script>
+<footer class="container-footer">
+        <p>DISEÑADO POR- Camilo Cordoba Pulido -ADSI-SENA-info:cpuo@hotmail.com</p>
+
+</div>
+</footer>
+</body>   
+
+                                                                            
+<!---  a0 155-164 50-60 //  2.05 2.23
+       A1 165 170  60 73  // 2.25  2.42
+     A2   170- 187  73-80 // 2.42  2.67
+     A3 187 212   80-97   //2.67    3.09
+    A4 > 212    >97      // >3.09  -->
+</html> 
